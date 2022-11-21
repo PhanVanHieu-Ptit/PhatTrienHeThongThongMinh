@@ -1,0 +1,21 @@
+{"intents": [
+  {"tag": "greetings",
+  "patterns": ["hello","hey","hi","good day", "Greetings","what's up?","how is it going"],
+  "responses":["Hello!","Hey!","What can I do for you?"]},
+  {"tag": "goodbye",
+  "patterns": ["cya","See you later","Goodbye","I am leaving", "Have a Good day","bye","cao","see ya"],
+  "responses":["Sad to see you go ","Talk to you later","Goodbye!"]},
+    {"tag": "age",
+  "patterns": ["how old","how old is florian","What is your age","how old are you", "age?"],
+  "responses":["My owner Hieu is 21 years old","21 years!"]},
+   {"tag": "name",
+  "patterns": ["what is your name","what should I call you","Whats your name","who are you"],
+  "responses":["You can call me Nerual!","I'm Neural!","I'm Neural the assistant of Florian!"]},
+   {"tag": "shop",
+  "patterns": ["Id like to buy something","what are your products?","What do you recommend?","what are you selling?"],
+  "responses":["I am selling every thing you need","I have some hats"]},
+  {"tag": "help",
+  "patterns": ["Can you help me?","I need help","Are you free?","Can I ask you?"],
+  "responses":["Yes","I glad to help you","Sure"]}
+]
+}
