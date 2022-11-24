@@ -17,7 +17,7 @@ import tensorflow as tf;
 
 lematizer = WordNetLemmatizer()
 
-intents = json.loads(open('intents.json').read())
+intents = json.loads(open('nhuCau.json',encoding="utf8").read())
 
 words =[]
 classes =[]

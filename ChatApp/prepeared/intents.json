@@ -10,7 +10,7 @@
   "responses":["My owner Hieu is 21 years old","21 years!"]},
    {"tag": "name",
   "patterns": ["what is your name","what should I call you","Whats your name","who are you"],
-  "responses":["You can call me Nerual!","I'm Neural!","I'm Neural the assistant of Florian!"]},
+  "responses":["You can call me Nerual!","I'm Neural!","I'm Neural the assistant of Hieu!"]},
    {"tag": "shop",
   "patterns": ["Id like to buy something","what are your products?","What do you recommend?","what are you selling?"],
   "responses":["I am selling every thing you need","I have some hats"]},

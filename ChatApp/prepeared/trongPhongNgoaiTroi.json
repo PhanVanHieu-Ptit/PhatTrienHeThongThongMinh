@@ -1,0 +1,10 @@
+{"intents": [
+  {"tag": "ngoài trời",
+  "patterns": ["Học thể dục","ngoài sân trường","ngoài lớp","ngoài sân", "trong sân"],
+  "responses":["list1"]},
+  {"tag": "trong phòng",
+  "patterns": ["trên lớp","trong lớp","không phải ngoài sân","trong phòng", "trên lầu"],
+  "responses":["list2"]}
+
+]
+}

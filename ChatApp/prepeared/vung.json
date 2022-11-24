@@ -1,0 +1,13 @@
+{"intents": [
+  {"tag": "biển",
+  "patterns": ["tôi đi tắm biển","tôi đi dạo dọc bờ biển","tôi đi lướt sóng","tôi đi thuyền", "tôi đi ăn hải sản ngoài bãi biển"],
+  "responses":["list3"]},
+  {"tag": "rừng",
+  "patterns": ["tôi đi rừng thông","cắm trại trong rừng","đốt lửa trại ngoài bìa rừng","trồng cây trong rừng", "tham quan rừng xanh"],
+  "responses":["list4"]},
+  {"tag": "núi",
+  "patterns": ["tôi đi núi Bà Đen","leo núi cao cao","đốt lửa trại bên sườn đồi","ngắm bình minh trên núi", "đi núi Châu Đốc"],
+  "responses":["list5"]}
+
+]
+}
