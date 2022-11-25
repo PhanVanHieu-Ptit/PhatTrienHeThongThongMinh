@@ -1,5 +1,5 @@
 {"intents": [
-  {"tag": "đi học",
+  {"tag": "đi học",,
   "patterns": ["tôi cần tìm đồ để đi học","Có bán đồ đi học không?","Tôi muốn xem vài mẫu đi học","Cho tui xem vài bộ đi học", "Có đồ đi học nào đẹp đẹp không nhỉ?"],
   "responses":["Bạn có học trong phòng hay ngoài trời?"]},
   {"tag": "đi chơi",
