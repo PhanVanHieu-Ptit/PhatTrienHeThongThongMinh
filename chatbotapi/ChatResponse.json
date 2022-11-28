@@ -1,0 +1,25 @@
+[{
+        "model": "chatbotapp.ChatResponse",
+        "id": 1,
+        "fields": {
+          "tag": "đi học",
+            "response": "Bạn học trong phòng hay ngoài trời?"
+        }
+    },
+  {
+        "model": "chatbotapp.ChatResponse",
+        "pk": 2,
+        "fields": {
+          "tag": "đi chơi",
+            "response": "Bạn đi chơi ở vùng nào?"
+        }
+    },
+  {
+        "model": "chatbotapp.ChatResponse",
+        "pk": 3,
+        "fields": {
+          "tag": "đi tiệc",
+            "response": "Bạn đi tiệc gì?"
+        }
+    }
+]
