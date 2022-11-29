@@ -4,4 +4,4 @@ from .models import ChatResponse
 class ChatResponseSerializer(serializers.ModelSerializer):
     class Meta:
         model = ChatResponse
-        fields = ["tag","response"]
+        fields = ["id","tag","response"]
