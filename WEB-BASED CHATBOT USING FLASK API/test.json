@@ -1,0 +1,9 @@
+{"intents": [
+  {"tag": "đi học",
+  "patterns": ["tôi cần tìm đồ để đi học","Có bán đồ đi học không?","Đồ học sinh tiểu học","Trường tiểu học","Trung học cơ sở","Trường trung học cơ sở","Trung học phổ thông","Trường trung học phổ thông","đại học","trường đại học","mầm non","lớp lá","trung tâm giáo dục thường xuyên","trung tâm giáo dục quốc phòng","Học viện công nghệ bưu chính viễn thông","Học viện chính trị","trường chuyên","trường bán trú","trường công","trường nhà nước","trường dân lập","trường tư","trường tình thương","trường mái ấm","đào tạo từ xa","cao đẳng công thương","cao đẳng Cao thắng","lớp chuyên","lớp chọn","học thêm anh văn","học thêm sinh học","học bù","học bù toán","học cải thiện","hoạt động ngoài giờ","tập huấn"],
+  "responses":["Bạn học trong phòng hay ngoài trời?"]},
+  {"tag": "đi chơi",
+  "patterns": ["tôi cần tìm đồ để đi chơi","Có bán đồ đi chơi không?","hội trăng rằm","rằm tháng tám","hoa tiêu","Hoa nguyên tiêu","hội đua thuyền","hội chợ thương mại","hội người cao tuổi","hội người già","tết thiếu nhi","tết trẻ em","đoàn tụ","đoàn kết","tết nguyên tiêu","tết nguyên đán","lễ báo Hiếu","Lễ Vu Lang","xem bắn pháo hoa","xem bắn pháo bông","tầm cao","tầm trung","xem đấu vật","xem đô vật","xem thả khinh khí cầu","thả hoa đăng","đua ngựa","đua xe","chạy đua","chạy điền kinh","đón noen","đón giáng sinh","phim tình cảm","phim kinh dị","kịch nói","kịch câm","tiểu phẩm","tiểu phẩm ngắn","công viên giải trí","khu vui chơi giải trí","du lịch sinh thái đồng tháp mười","du lịch về nguồn","viện bảo tàng dân tộc","viện bảo tàng quốc gia"],
+  "responses":["Bạn đi chơi ở vùng nào?"]}
+]
+}

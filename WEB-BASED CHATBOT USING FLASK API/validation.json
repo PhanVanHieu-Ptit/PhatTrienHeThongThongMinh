@@ -1,0 +1,9 @@
+{"intents": [
+  {"tag": "đi học",
+  "patterns": ["Tôi muốn xem vài mẫu đi học","Cho tui xem vài bộ đi học","đồng phục tiểu học","đồ tiểu học","đồng phục trung học cơ sở","đồ trung học cơ sở","đồng phục trung học phổ thông","quần áo trung học phổ thông","đại học Văn Lang","đại học Văn Hiến","mẫu giáo","lớp mầm","trung tâm đào tạo nghề","trung tâm dạy nghề","Học viện hàng không","Học viện ngân hàng","trường không chuyên","trường bán chuyên","trường công lập","trường làng","trường tư nhân","trường tư thục","trường nghĩa tình","trường miễn phí"," đào tạo chính quy","đào tạo vừa học vừa làm","Cao đẳng ngoại thương","cao đẳng nghề","lớp giỏi","lớp lựa","học thêm","học thêm ngoại ngữ","bù văn","bù lý","học yếu","ngoài giờ lên lớp","hướng nghiệp","Tập huấn đội"],
+  "responses":["Bạn học trong phòng hay ngoài trời?"]},
+  {"tag": "đi chơi",
+  "patterns": ["Tôi muốn xem vài mẫu đi chơi","rằm tháng 1","hoa khôi","hội người cô đơn","con nít","tết đoàn viên","tết thanh minh","Lễ thả hoa đăng","tầm vừa","xem đấu võ","thả diều","đua xe đạp chậm","chạy diệt dã","đón haloween","phim ma","kịch hát","tiêu phẩm hài","trò chơi giải trí","khu du lịch sinh thái","viện bảo tàng di tích lịch sử"],
+  "responses":["Bạn đi chơi ở vùng nào?"]}
+]
+}

@@ -5,6 +5,5 @@
   {"tag": "trong phòng",
   "patterns": ["trên lớp","trong lớp","cạnh lớp","trong phòng", "trên lầu","học toán","học thêm","trong thư viện","trong phòng đọc","trong sảnh","trong hội trường","trong giảng đường","trong bãi tập có mái che","dưới lầu","tầng 1","lầu 2","phòng 5","phòng B","cạnh phòng A","dưới phòng C"],
   "responses":["list2"]}
-
 ]
 }

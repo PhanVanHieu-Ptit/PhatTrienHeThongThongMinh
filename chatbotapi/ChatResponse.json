@@ -17,9 +17,9 @@
   {
         "model": "chatbotapp.ChatResponse",
         "pk": 3,
-        "fields": {
-          "tag": "đi tiệc",
-            "response": "Bạn đi tiệc gì?"
+        "fields": { "đi tiệc",
+          "tag":
+            "response",: "Bạn đi tiệc gì?"
         }
     }
 ]
