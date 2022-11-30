@@ -4,6 +4,12 @@
   "responses":["Bạn học trong phòng hay ngoài trời?"]},
   {"tag": "đi chơi",
   "patterns": ["tôi cần tìm đồ để đi chơi","Có bán đồ đi chơi không?","hội trăng rằm","rằm tháng tám","hoa tiêu","Hoa nguyên tiêu","hội đua thuyền","hội chợ thương mại","hội người cao tuổi","hội người già","tết thiếu nhi","tết trẻ em","đoàn tụ","đoàn kết","tết nguyên tiêu","tết nguyên đán","lễ báo Hiếu","Lễ Vu Lang","xem bắn pháo hoa","xem bắn pháo bông","tầm cao","tầm trung","xem đấu vật","xem đô vật","xem thả khinh khí cầu","thả hoa đăng","đua ngựa","đua xe","chạy đua","chạy điền kinh","đón noen","đón giáng sinh","phim tình cảm","phim kinh dị","kịch nói","kịch câm","tiểu phẩm","tiểu phẩm ngắn","công viên giải trí","khu vui chơi giải trí","du lịch sinh thái đồng tháp mười","du lịch về nguồn","viện bảo tàng dân tộc","viện bảo tàng quốc gia"],
-  "responses":["Bạn đi chơi ở vùng nào?"]}
+  "responses":["Bạn đi chơi ở vùng nào?"]},
+  {"tag": "ngoài trời",
+  "patterns": ["Học thể dục","tập thể dục giữa giờ","ngoài sân trường","ngoài lớp","học chạy bộ","học chạy bền","học nhảy xa","học bật nhảy","học đá cầu","học đá bóng","trong sân","giữa sân","cạnh hàng rào","kế bên hàng rào","trước nhà xe","sau nhà xe","kế căn tin","cạnh căn tin","ngoài cổng","trong cổng","học kéo co"," học đẩy gậy", "sân cỏ","sân cát","sân trước","sân sau","ngoại khóa dọn cỏ","ngoại khóa trồng cây","dự lễ khai giảng","dự lễ tổng kết","giao lưu doanh nghiệp","giao lưu cựu học sinh","hội thao toàn thành","hội khỏe toàn thành","trường bắn","luyện ráp súng"],
+  "responses":["list1"]},
+  {"tag": "trong phòng",
+  "patterns": ["trên lớp","trong lớp","trong phòng","cạnh phòng","trên lầu","dưới lầu","thực hành tin","thực hành hóa","trong thư viện","sau thư viện","trong phòng đọc","cạnh phòng đọc","trong sảnh","kế sảnh","trong hội trường","cạnh hội trường","trong giảng đường","kế bên giảng đường","mái hiên","mái vòm","tầng 1","tầng hầm","dãy A","dãy B","Khu A","Khu B","hội thảo hướng nghiệp","hội thảo tuyển sinh","tư vấn tuyển sinh","tư vấn chọn nghề","hướng dẫn đăng kí môn","hướng dẫn đăng kí chuyên ngành","trao đổi quan điểm","trao đổi thông tin","kế bên cửa","sau cửa chính","quạt trần","quạt máy","bảng xanh","bảng đen","bàn học","bàn đôi"],
+  "responses":["list2"]}
 ]
 }
