@@ -1,0 +1,9 @@
+diff a/WEB-BASED CHATBOT USING FLASK API/app.py b/WEB-BASED CHATBOT USING FLASK API/app.py	(rejected hunks)
+@@ -70,6 +70,7 @@
+ from flask import Flask, render_template, request
+ 
+ app = Flask(__name__)
++cors = CORS(app)
+ app.static_folder = 'static'
+ 
+ @app.route("/")
