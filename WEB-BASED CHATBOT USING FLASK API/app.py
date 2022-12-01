@@ -5,6 +5,8 @@ lemmatizer = WordNetLemmatizer()
 import pickle
 import numpy as np
 
+from flask import Flask
+from flask_cors import CORS
 from keras.models import load_model
 model = load_model('model.h5')
 import json
@@ -68,6 +70,7 @@ def chatbot_response(msg):
 from flask import Flask, render_template, request
 
 app = Flask(__name__)
+cors = CORS(app)
 app.static_folder = 'static'
 
 @app.route("/")
