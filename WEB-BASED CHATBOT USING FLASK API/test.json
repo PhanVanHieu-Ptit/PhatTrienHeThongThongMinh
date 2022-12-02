@@ -10,6 +10,15 @@
   "responses":["list1"]},
   {"tag": "trong phòng",
   "patterns": ["trên lớp","trong lớp","trong phòng","cạnh phòng","trên lầu","dưới lầu","thực hành tin","thực hành hóa","trong thư viện","sau thư viện","trong phòng đọc","cạnh phòng đọc","trong sảnh","kế sảnh","trong hội trường","cạnh hội trường","trong giảng đường","kế bên giảng đường","mái hiên","mái vòm","tầng 1","tầng hầm","dãy A","dãy B","Khu A","Khu B","hội thảo hướng nghiệp","hội thảo tuyển sinh","tư vấn tuyển sinh","tư vấn chọn nghề","hướng dẫn đăng kí môn","hướng dẫn đăng kí chuyên ngành","trao đổi quan điểm","trao đổi thông tin","kế bên cửa","sau cửa chính","quạt trần","quạt máy","bảng xanh","bảng đen","bàn học","bàn đôi"],
-  "responses":["list2"]}
+  "responses":["list2"]},
+  {"tag": "biển",
+  "patterns": ["tôi đi tắm biển", "đi lặn biển", "bikini đi biển","ngắm sanho dưới biển", "ngắm sao biển", "đi chơi đảo", "đi đảo Phú Quốc", "tôi đi côn đảo", "đi cáp treo ra đảo", "cắm trại trên đảo", "Ngắm biển từ các ngọn hải đăng", "đi lên ngọn hải đăng", "chụp ảnh trên ngon hải đăng", "đi Hải đăng Cù lao Xanh"],
+  "responses":["list3"]},
+  {"tag": "rừng",
+  "patterns": [ "cắm trại trong rừng","trồng cây trong rừng", "tiệc nướng trong rừng", "đi dã ngoại trong rừng", "concept chụp ảnh trong rừng", "đi săn trong rừng","đi rừng cao su", "đi hái sim", "đi hái nấm rừng tràm", "đi hái nấm rừng","đi hái nấm trong rừng thông", "tham quam rừng Quốc gia U Minh Hạ", "tham quan Rừng Dừa Bảy Mẫu", "tham quan rừng nguyên sinh", "tham quan rừng quốc gia cúc phương","tham quan rừng núi tây bắc"],
+  "responses":["list4"]},
+ {"tag": "núi",
+  "patterns": ["tôi leo núi Bà Đen", "leo núi chênh vênh", "leo núi đá", "leo núi chứa chan", "tôi đi leo núi", "đi cáp treo lên đỉnh núi", "chinh phục đỉnh Fansipan", "chinh phục đỉnh everest", "trekking đỉnh la bàn","leo lên đỉnh núi Lùng Cúng", "đốt lửa trại bên sườn đồi", "concept chụp ảnh bên sườn đồi", "tham gia tiệc nướng bên sườn đồi", "tham gia show âm nhận bên sườn đồi", "cắm trại bên sườn đồi"],
+  "responses":["list5"]}
 ]
 }

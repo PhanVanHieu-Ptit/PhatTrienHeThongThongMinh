@@ -11,6 +11,15 @@
   "responses":["list1"]},
   {"tag": "trong phòng",
   "patterns": ["cạnh lớp","kế bên lớp","bên phòng","trước phòng","lầu 1","lầu 2","thực hành lý","thực hành sinh","trước thư viện","cạnh thư viện","kế bên phòng đọc","trước phòng đọc","cạnh sảnh","trước sảnh","trước hội trường","đối diện hội trường","phía trước giảng đường","sau giảng đường","trong bãi tập có mái che","mái ngói","tầng 2","tầng giữa","dãy C","dãy D","Khu C","Khu D","hội thảo khoa học","hội thảo doanh nghiệp","tư vấn chọn chuyên ngành","tư vấn học tập","hướng dẫn bảo lưu","hướng dẫn hủy đăng kí","trao đổi tài liệu","trao đổi kiến thức","gần cửa ra vào","cạnh cửa sổ","quạt điện","quạt gió","bảng trắng","bảng vẽ","bàn đơn","bàn ghép"],
-  "responses":["list2"]}
+  "responses":["list2"]},
+  {"tag": "biển",
+  "patterns": ["tôi đi ăn hải sản ngoài bãi biển", "ngắm bình minh trên bãi biển", "ngắm hoàng hôn trên bãi biển", "concept chụp ảnh trên bãi biển", "cắm trại trên bãi biển", "tắm nắng trên bãi biển", "tôi đi dạo dọc bờ biển", "xây lâu đài cát trên bờ biển", "nhặt vỏ sò trên bờ biển","chụp ảnh bờ biển","đi bộ trên bờ biển"],
+  "responses":["list3"]},
+  {"tag": "rừng",
+  "patterns": ["nấu ăn ngoài bìa rừng", "hái quả dại ngoài bìa rừng","tiệc nướng ngoài bìa rừng", "cắm trại ngoài bìa rừng", "đốt lửa trại ngoài bìa rừng", "đi hái nấm trong rừng thông",  "tôi đi rừng thông", "chụp ảnh trong rừng thông", "team building cắm trại giữa rừng thông", "tiệc nướng trong rừng thông", "tham quam rừng Quốc gia U Minh Hạ"],
+  "responses":["list4"]},
+ {"tag": "núi",
+  "patterns": ["ngắm bình minh trên vách núi", "đi săn mây trên vách núi", "cắm trại trên vách núi", "chơi Dù lượn tại vách núi", "concept chụp ảnh trên vách núi", "ngắm sao đêm trên vách núi",  "tham quan Núi Ngũ Hành Sơn", "tham quan Núi Langbiang Đà Lạt", "tham quan các hang động trong núi", "tham quan thác nước trên núi", "tham quan núi thần tài"],
+  "responses":["list5"]}
 ]
 }

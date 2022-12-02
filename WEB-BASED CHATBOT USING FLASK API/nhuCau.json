@@ -17,13 +17,13 @@
   "responses":["list2"]},
 
   {"tag": "biển",
-  "patterns": ["tôi đi tắm biển","tôi đi dạo dọc bờ biển","tôi đi lướt sóng","tôi đi thuyền", "tôi đi ăn hải sản ngoài bãi biển"],
+  "patterns": ["tôi đi tắm biển", "đi lặn biển", "bikini đi biển","ngắm sanho dưới biển", "ngắm sao biển","tôi đi ăn hải sản ngoài bãi biển", "ngắm bình minh trên bãi biển", "ngắm hoàng hôn trên bãi biển", "concept chụp ảnh trên bãi biển", "cắm trại trên bãi biển", "tắm nắng trên bãi biển", "tôi đi dạo dọc bờ biển", "xây lâu đài cát trên bờ biển", "nhặt vỏ sò trên bờ biển","chụp ảnh bờ biển","đi bộ trên bờ biển", "đi chơi đảo", "đi đảo Phú Quốc", "tôi đi côn đảo", "đi cáp treo ra đảo", "cắm trại trên đảo", "Ngắm biển từ các ngọn hải đăng", "đi lên ngọn hải đăng", "chụp ảnh trên ngon hải đăng", "đi Hải đăng Cù lao Xanh"],
   "responses":["list3"]},
   {"tag": "rừng",
-  "patterns": ["tôi đi rừng thông","cắm trại trong rừng","đốt lửa trại ngoài bìa rừng","trồng cây trong rừng", "tham quan rừng xanh"],
+  "patterns": ["nấu ăn ngoài bìa rừng", "hái quả dại ngoài bìa rừng","tiệc nướng ngoài bìa rừng", "cắm trại ngoài bìa rừng", "đốt lửa trại ngoài bìa rừng", "cắm trại trong rừng","trồng cây trong rừng", "tiệc nướng trong rừng", "đi dã ngoại trong rừng", "concept chụp ảnh trong rừng", "đi săn trong rừng","đi rừng cao su", "đi hái sim", "đi hái nấm rừng tràm", "đi hái nấm rừng","đi hái nấm trong rừng thông",  "tôi đi rừng thông", "chụp ảnh trong rừng thông", "team building cắm trại giữa rừng thông", "tiệc nướng trong rừng thông", "tham quam rừng Quốc gia U Minh Hạ", "tham quan Rừng Dừa Bảy Mẫu", "tham quan rừng nguyên sinh", "tham quan rừng quốc gia cúc phương","tham quan rừng núi tây bắc"],
   "responses":["list4"]},
-  {"tag": "núi",
-  "patterns": ["tôi đi núi Bà Đen","leo núi cao cao","đốt lửa trại bên sườn đồi","ngắm bình minh trên núi", "đi núi Châu Đốc"],
+ {"tag": "núi",
+  "patterns": ["ngắm bình minh trên vách núi", "đi săn mây trên vách núi", "cắm trại trên vách núi", "chơi Dù lượn tại vách núi", "concept chụp ảnh trên vách núi", "ngắm sao đêm trên vách núi","tôi leo núi Bà Đen", "leo núi chênh vênh", "leo núi đá", "leo núi chứa chan", "tôi đi leo núi", "đi cáp treo lên đỉnh núi", "chinh phục đỉnh Fansipan", "chinh phục đỉnh everest", "trekking đỉnh la bàn","leo lên đỉnh núi Lùng Cúng",  "tham quan Núi Ngũ Hành Sơn", "tham quan Núi Langbiang Đà Lạt", "tham quan các hang động trong núi", "tham quan thác nước trên núi", "tham quan núi thần tài", "đốt lửa trại bên sườn đồi", "concept chụp ảnh bên sườn đồi", "tham gia tiệc nướng bên sườn đồi", "tham gia show âm nhận bên sườn đồi", "cắm trại bên sườn đồi"],
   "responses":["list5"]},
 
   {"tag": "đám cưới",
