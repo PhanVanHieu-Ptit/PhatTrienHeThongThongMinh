@@ -5,14 +5,13 @@ lemmatizer = WordNetLemmatizer()
 import pickle
 import numpy as np
 
-from flask import Flask
 from flask_cors import CORS
 from keras.models import load_model
 model = load_model('model.h5')
 import json
 import random
 # intents = json.loads(open('data.json').read())
-intents = json.loads(open('nhuCau.json',encoding="utf8").read())
+intents = json.loads(open('trainning.json', encoding="utf8").read())
 words = pickle.load(open('texts.pkl','rb'))
 classes = pickle.load(open('labels.pkl','rb'))
 
