@@ -6,7 +6,7 @@
   "patterns": ["Tôi muốn xem vài mẫu đi chơi","Cho tui xem vài bộ đi chơi", "Có đồ đi chơi nào đẹp không nhỉ?","rằm tháng 1","rằm tháng 10","trăng rằm","hội hoa đăng","hoa khôi","hoa hậu","hội người cô đơn","người đôc thân","người ế","con nít","nhi đồng","măng non","tết đoàn viên","tết thanh minh","Lễ thả hoa đăng","lễ rửa tội","lễ Phật Đản","bắn pháo sáng","bắn pháo xẹt","pháo hoa tầm thấp","tầm vừa","xem đấu võ","xem đấu võ đài","đấu quyền anh","xem đá bóng","thả diều","thả bong bóng bay","thả cá","thả chim","xem đua thuyền","đua xe đạp chậm","đua xe tốc độ","đua xe F1","đua xe địa hình","xem chạy diệt dã","xem chạy tiếp sức","xem chạy bộ đường dài","đón haloween","đón giao thừa","đón năm mới","xem phim","phim ma","phim hài","xem kịch","kịch hát","kịch chính sự","tiêu phẩm hài","tiểu phẩm giáo dục","tiểu phẩm giải trí","trò chơi giải trí","khu du lịch sinh thái","trung tâm bảo vệ động vật hoang dã","viện bảo tàng","viện bảo tàng di tích lịch sử"],
   "responses":["Bạn đi chơi ở vùng nào?"]},
   {"tag": "đi tiệc",
-  "patterns": ["tôi cần tìm đồ để đi tiệc","Có bán đồ đi tiệc không?","Tôi muốn xem vài mẫu đi đám tiệc","Cho tui xem vài bộ đi sinh nhật", "Có đồ đi liên hoan nào đẹp đẹp không nhỉ?"],
+  "patterns": ["Tôi muốn xem vài mẫu đi tiệc", "Các bộ đồ đi tiệc","Cho tui xem vài bộ đi tiệc","Có đồ đi sinh nhật đẹp không","gợi ý vài bộ đi sinh nhật","vài bộ đi sinh nhật hợp thời trang", "Các bộ đồ để đi liên hoan", "Đi liên hoan sao cho đẹp xuất sắc", "Danh sách các bộ đồ đi liên hoan hợp thời","Quần áo đi đám tiệc", "Đồ đi đám hợp thời", "thời trang đi đám cưới","Đi lễ hội cần mặc gì cho đẹp", "có đồ nào đi lễ hội đẹp đẹp không?", "thời trang đi lễ cưới"],
   "responses":["Bạn đi tiệc gì?"]},
 
   {"tag": "ngoài trời",
@@ -27,11 +27,13 @@
   "responses":["list5"]},
 
   {"tag": "đám cưới",
-  "patterns": ["Đám cưới của em","Đi đám cưới của bạn thân","Đám cưới người yêu cũ","Ăn đám cưới của anh trai", "Đi đám cưới chị gái"],
+  "patterns": ["Đám cưới người yêu cũ","Ăn đám cưới của anh trai", "Đi đám cưới chị gái","Ngày người yêu cũ thành thân","Ngày thành thân của đồng nghiệp nên mặc gì?","Ngày thành thân của thằng bạn","Người yêu cũ lấy chồng","Chị họ lấy chồng nên mặc gì?","Bạn thân lấy chồng nên mặc đồ sao?","Người yêu cũ cưới vợ","Anh họ cưới vợ nên mặc gì?","Bạn thân cưới vợ nên mặc đồ sao?","Tiệc cưới của anh họ nên mặc gì?","Tiệc cưới của em họ","Tiệc cưới của bạn thân","Trang phục đi rước dâu","Rước dâu cho anh trai","Rước dâu của em họ","Trang phục đi đưa dâu","Đi đưa dâu qua nhà trai","Các trang phục phù hợp khi đưa dâu","Ngày cưới bạn thân","Dự ngày cưới người yêu cũ","Các trang phục phù hợp trong ngày cưới của đồng nghiệp","Trang phục dự lễ thành hôn","Mặc gì khi đi dự lễ thành hôn của người yêu cũ?","Mặc đồ như thế nào để nổi bật trong lễ thành hôn?","Ngày xung hỷ của người yêu cũ nên mặc gì","Mặc trong ngày xung hỉ của người yêu cũ?","Mặc đồ như thế nào để nổi bật trong ngày xung hỉ?","Ngày hợp hôn của người yêu cũ nên mặc gì","Mặc gì trong ngày hợp hôn của người yêu cũ?","Mặc đồ như thế nào để hot nhất ngày hợp hôn?","Chuẩn bị quần áo gì để đẹp hơn chú rể","Mặc gì để đẹp hơn chú rể của người yêu cũ","Mặc đồ như thế nào để nối bậc trước mặt chú rể","Chuẩn bị quần áo gì để đẹp hơn cô dâu","Mặc gì để đẹp hơn cô dâu của người yêu cũ","Mặc đồ như thế nào để nối bậc trước mặt cô dâu","101 bộ đi dự lễ cưới","vài mẫu dự lễ cưới đẹp","quần áo mặc đi lễ cưới"],
   "responses":["list6"]},
   {"tag": "sinh nhật",
-  "patterns": ["Sinh nhật của bạn thân","Ăn tiệc sinh nhật của em họ","Đi đám sinh nhật của anh trai","Sinh nhật bạn hàng xóm", "Sinh nhật 19 tuổi của chị"],
-  "responses":["list7"]}
+  "patterns": ["Đi đám sinh nhật của anh trai","Sinh nhật bạn hàng xóm", "Sinh nhật 19 tuổi của chị","Qua nhà crush dịp ngày sinh", "Đón ngày sinh cùng người yêu","Mặc gì vào ngày sinh của người yêu?", "Qua nhà crush đón sanh thần", "Đón sanh thần cùng người yêu","Mặc gì vào ngày sanh thần của người yêu?", "Mặc gì để mừng tuổi mới của người yêu", "Trang phục khi đi mừng tuổi đứa bạn","Đón mừng tuổi mới của nhỏ bạn","Qua nhà bạn thân mừng thọ nên mặc gì?", "Đi mừng thọ bạn thân","Cần mặc gì khi đi mừng thọ đứa bạn tốt?"],
+  "responses":["list7"]
+}
+
 
 
 ]
