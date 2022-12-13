@@ -1,16 +1,17 @@
 from keras.models import load_model
-
-rootPath = 'E:\\DoAnPhatTrienHeThongThongMinh\\ChatbotApp'
+import os
+# rootPath = 'E:\\DoAnPhatTrienHeThongThongMinh\\ChatbotApp'
 type = 'wrong'# true or wrong
 # load model
 # model = load_model(rootPath+'\\model\\true\\model.h5')#true
-model = load_model(rootPath+'\\model\\'+type+'\\model.h5')
+
+model = load_model(os.path.abspath('model/'+type+'/model.h5'))
 
 #path validation
 # validationPath = rootPath+'\\data\\true\\validation\\validation.json'#true
-validationPath = rootPath+'\\data\\'+type+'\\validation\\validation.json'
+validationPath =os.path.abspath('data/'+type+'/validation/validation.json')
 #path test
-testPath = rootPath+ '\\data\\true\\testting\\test.json' #true
+testPath = os.path.abspath('data/true/testting/test.json') #true
 
 
 
@@ -59,7 +60,7 @@ for intent in intents['intents']:
 
 
 #test with data wrong
-testPath = rootPath + '\\data\\wrong\\testting\\test.json'  # wrong
+testPath =  os.path.abspath('data/wrong/testting/test.json')  # wrong
 intents = json.loads(open(testPath, encoding="utf8").read())
 for intent in intents['intents']:
     samples = intent['patterns']
@@ -79,10 +80,10 @@ for intent in intents['intents']:
         print('tn: ' + str(tn) + '\nfn: ' + str(fn))
         print('\nsample: ' + sample + '\ntag: ' + tag+'\nPercent: '+ percent + '\nres: ' + res)
 
-print('\ntp:'+tp)
-print('\ntn:'+tn)
-print('\nfp:'+fp)
-print('\nfn:'+tn)
+print('\ntp:'+str(tp))
+print('\ntn:'+str(tn))
+print('\nfp:'+str(fp))
+print('\nfn:'+str(tn))
 #do dung
 A = (tp+tn)/(tp+fp+tn+fn)
 #do chinh xac

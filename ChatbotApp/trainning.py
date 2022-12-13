@@ -7,11 +7,12 @@ from keras.models import Sequential
 from keras.layers import Dense, Dropout
 from keras.optimizers import SGD
 from ChatbotApp.dataProcess import data_process
+import os
 
 rootPath = 'E:\\DoAnPhatTrienHeThongThongMinh\\ChatbotApp'
 type = 'true'# true or wrong
 
-train_x,train_y = data_process(rootPath,'\\data\\'+type+'\\trainning\\trainning.json',type)
+train_x,train_y = data_process(rootPath,os.path.abspath('data/'+type+'/trainning/trainning.json'),type)
 # train_x,train_y = data_process(rootPath,'\\data\\wrong\\trainning\\trainning.json')
 # Create model - 3 layers. First layer 128 neurons, second layer 64 neurons and 3rd output layer contains number of neurons
 # equal to number of intents to predict output intent with softmax

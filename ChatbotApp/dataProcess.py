@@ -15,7 +15,7 @@ def data_process(rootPath,nameFile,type):
     ignore_words = ['?', '!', '"', '#', '$', '%', '&', '(', ')', '*', '+', '-', '.', ',', '/', ':', ';', '<', '=', '>', '?',
                     '@', '[', '\\', ']', '^', '`', '{', '|', '}', '~', '\t', '\n', "'",'_']
 
-    data_file = open(rootPath+nameFile, encoding="utf8").read()
+    data_file = open(nameFile, encoding="utf8").read()
     intents = json.loads(data_file)
 
     for intent in intents['intents']:
