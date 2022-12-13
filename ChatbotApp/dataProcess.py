@@ -8,15 +8,14 @@ import pickle
 import numpy as np
 import random
 
-def data_process(nameFile):
+def data_process(rootPath,nameFile,type):
     words = []
     classes = []
     documents = []
     ignore_words = ['?', '!', '"', '#', '$', '%', '&', '(', ')', '*', '+', '-', '.', ',', '/', ':', ';', '<', '=', '>', '?',
                     '@', '[', '\\', ']', '^', '`', '{', '|', '}', '~', '\t', '\n', "'",'_']
-    # data_file = open('data.json').read()
-    # data_file = open('trainning.json', encoding="utf8").read()
-    data_file = open(nameFile, encoding="utf8").read()
+
+    data_file = open(rootPath+nameFile, encoding="utf8").read()
     intents = json.loads(data_file)
 
     for intent in intents['intents']:
@@ -44,8 +43,11 @@ def data_process(nameFile):
     # words = all words, vocabulary
     print(len(words), "unique lemmatized words", words)
 
-    pickle.dump(words, open('texts.pkl', 'wb'))
-    pickle.dump(classes, open('labels.pkl', 'wb'))
+    pickle.dump(words, open(rootPath+'\\model\\'+type+'\\texts.pkl', 'wb'))
+    pickle.dump(classes, open(rootPath+'\\model\\'+type+'\\labels.pkl', 'wb'))
+
+    # pickle.dump(words, open(rootPath + '\\model\\wrong\\texts.pkl', 'wb'))
+    # pickle.dump(classes, open(rootPath + '\\model\\wrong\\labels.pkl', 'wb'))
 
     # create our training data
     training = []
