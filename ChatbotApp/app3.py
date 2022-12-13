@@ -7,13 +7,15 @@ import numpy as np
 
 from flask_cors import CORS
 from keras.models import load_model
-model = load_model('model.h5')
+rootPath = 'E:\\DoAnPhatTrienHeThongThongMinh\\ChatbotApp'
+type = 'true'# true or wrong
+model = load_model(rootPath+'\\model\\'+type+'\\model.h5')
 import json
 import random
 # intents = json.loads(open('data.json').read())
-intents = json.loads(open('trainning.json', encoding="utf8").read())
-words = pickle.load(open('texts.pkl','rb'))
-classes = pickle.load(open('labels.pkl','rb'))
+intents = json.loads(open(rootPath+'\\data\\'+type+'\\trainning\\trainning.json', encoding="utf8").read())
+words = pickle.load(open(rootPath+'\\model\\'+type+'\\texts.pkl', 'rb'))
+classes = pickle.load(open(rootPath+'\\model\\'+type+'\\labels.pkl', 'rb'))
 
 def clean_up_sentence(sentence):
     # tokenize the pattern - split words into array
@@ -78,8 +80,8 @@ app.static_folder = 'static'
 @app.route("/")
 def home():
     return render_template("index.html")
-
 @app.route("/get")
+
 def get_bot_response():
     userText = request.args.get('msg')
     return chatbot_response(userText)

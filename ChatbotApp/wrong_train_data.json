@@ -1,0 +1,13 @@
+{"intents": [
+  {"tag": "đi học",
+     "patterns": ["ngủ ngon quá", "ăn ngon ghê", "bàn to lắm", "ghế xấu qúa", "dọn nhà cực ghê", "nhà trọ", "đường lớn", "sông rộng", "cầu thấp", "cột điện","trời xanh","dễ thương quá","thấy ghét ghê","sợ quá à","sao la to thế","cao quá cao rồi nha","bực mình quá","chán quá đi thôi","chạy nhanh ghê","bò à","gà quá","dở hơi quá","đẹp quá đi thôi","xấu không muốn xem","chim bay trên trời"],
+   "responses":["Bạn học trong phòng hay ngoài trời?"]},
+
+  {"tag": "ngoài trời",
+     "patterns":["gà ăn thóc","cá bơi dưới nước","trâu tắm","rắn bò","xe buýt","hành tỏi","ớt cay","canh chua","cơm nguội","canh lạnh","trời đông lạnh quá đi thôi","con buồn quá mẹ ơi","đi nhanh lên","chậm như rùa vậy","chân dài","ngủ luôn đi",],
+  "responses":["list1"]},
+  {"tag": "trong phòng",
+  "patterns": ["cạnh lớp","kế bên lớp","bên phòng","trước phòng","lầu 1","lầu 2","thực hành lý","thực hành sinh","trước thư viện","cạnh thư viện","kế bên phòng đọc","trước phòng đọc","cạnh sảnh","trước sảnh","trước hội trường","đối diện hội trường","phía trước giảng đường","sau giảng đường","trong bãi tập có mái che","mái ngói","tầng 2","tầng giữa","dãy C","dãy D","Khu C","Khu D","hội thảo khoa học","hội thảo doanh nghiệp","tư vấn chọn chuyên ngành","tư vấn học tập","hướng dẫn bảo lưu","hướng dẫn hủy đăng kí","trao đổi tài liệu","trao đổi kiến thức","gần cửa ra vào","cạnh cửa sổ","quạt điện","quạt gió","bảng trắng","bảng vẽ","bàn đơn","bàn ghép"],
+  "responses":["list2"]},
+
+]}
