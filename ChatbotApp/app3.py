@@ -5,16 +5,19 @@ lemmatizer = WordNetLemmatizer()
 import pickle
 import numpy as np
 
-from flask import Flask
 from flask_cors import CORS
 from keras.models import load_model
-model = load_model('model.h5')
+
+import os
+# rootPath = 'E:\\DoAnPhatTrienHeThongThongMinh\\ChatbotApp'
+type = 'true'# true or wrong
+model = load_model(os.path.abspath('model/'+type+'/model.h5'))
 import json
 import random
 # intents = json.loads(open('data.json').read())
-intents = json.loads(open('nhuCau.json',encoding="utf8").read())
-words = pickle.load(open('texts.pkl','rb'))
-classes = pickle.load(open('labels.pkl','rb'))
+intents = json.loads(open(os.path.abspath('data/'+type+'/trainning/trainning.json'), encoding="utf8").read())
+words = pickle.load(open(os.path.abspath('model/'+type+'/texts.pkl'), 'rb'))
+classes = pickle.load(open(os.path.abspath('model/'+type+'/labels.pkl'), 'rb'))
 
 def clean_up_sentence(sentence):
     # tokenize the pattern - split words into array
@@ -54,12 +57,15 @@ def predict_class(sentence, model):
 
 def getResponse(ints, intents_json):
     tag = ints[0]['intent']
+
     list_of_intents = intents_json['intents']
     for i in list_of_intents:
         if(i['tag']== tag):
             result = random.choice(i['responses'])
             break
     return result
+
+
 
 def chatbot_response(msg):
     ints = predict_class(msg, model)
@@ -76,8 +82,8 @@ app.static_folder = 'static'
 @app.route("/")
 def home():
     return render_template("index.html")
-
 @app.route("/get")
+
 def get_bot_response():
     userText = request.args.get('msg')
     return chatbot_response(userText)
