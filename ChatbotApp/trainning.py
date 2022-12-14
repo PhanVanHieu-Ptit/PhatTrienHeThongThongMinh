@@ -27,6 +27,9 @@ model.add(Dense(len(train_y[0]), activation='softmax'))
 sgd = SGD(lr=0.01, decay=1e-6, momentum=0.9, nesterov=True)
 model.compile(loss='categorical_crossentropy', optimizer=sgd, metrics=['accuracy'])
 
+model.summary()
+
+
 
 # fitting and saving the model
 hist = model.fit(np.array(train_x), np.array(train_y), epochs=200, batch_size=5, verbose=1)
@@ -40,4 +43,21 @@ model.save(rootPath+'\\model\\'+type+'\\model.h5', hist)
 # model.save('model2.h5', hist)
 
 print("model created")
+
+
+
+import matplotlib.pyplot as plt
+# list all data in history
+print(hist.history)
+print(hist.history.keys())
+# summarize history for accuracy
+plt.plot(hist.history['loss'])
+plt.plot(hist.history['accuracy'])
+plt.title('Trainning model')
+plt.ylabel('percent')
+plt.xlabel('epoch')
+plt.legend(['loss', 'accuracy'], loc='upper left')
+plt.show()
+
+
 
