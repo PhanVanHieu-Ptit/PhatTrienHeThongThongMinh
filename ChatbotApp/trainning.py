@@ -16,16 +16,19 @@ train_x,train_y = data_process(rootPath,os.path.abspath('data/'+type+'/trainning
 # train_x,train_y = data_process(rootPath,'\\data\\wrong\\trainning\\trainning.json')
 # Create model - 3 layers. First layer 128 neurons, second layer 64 neurons and 3rd output layer contains number of neurons
 # equal to number of intents to predict output intent with softmax
-model = Sequential()
-model.add(Dense(128, input_shape=(len(train_x[0]),), activation='relu'))
+model = Sequential(name='Model_ANN')
+model.add(Dense(128, input_shape=(len(train_x[0]),), activation='tanh',name='Input_Layer'))
 model.add(Dropout(0.5))
-model.add(Dense(64, activation='relu'))
+model.add(Dense(64, activation='tanh',name='Hide_layer'))
 model.add(Dropout(0.5))
-model.add(Dense(len(train_y[0]), activation='softmax'))
+model.add(Dense(len(train_y[0]), activation='softmax', name='Output_layer'))
 
 # Compile model. Stochastic gradient descent with Nesterov accelerated gradient gives good results for this model
 sgd = SGD(lr=0.01, decay=1e-6, momentum=0.9, nesterov=True)
-model.compile(loss='categorical_crossentropy', optimizer=sgd, metrics=['accuracy'])
+model.compile(loss='categorical_crossentropy', optimizer=sgd, metrics=['accuracy'])# categorical_crossentropy
+
+model.summary()
+
 
 
 # fitting and saving the model
@@ -40,4 +43,20 @@ model.save(rootPath+'\\model\\'+type+'\\model.h5', hist)
 # model.save('model2.h5', hist)
 
 print("model created")
+
+
+
+import matplotlib.pyplot as plt
+# list all data in history
+print(hist.history)
+print(hist.history.keys())
+# summarize history for accuracy
+plt.plot(hist.history['loss'])
+plt.plot(hist.history['accuracy'])
+plt.title('Trainning model')
+plt.ylabel('percent')
+plt.xlabel('epoch')
+plt.legend(['loss', 'accuracy'], loc='upper left')
+plt.show()
+
 

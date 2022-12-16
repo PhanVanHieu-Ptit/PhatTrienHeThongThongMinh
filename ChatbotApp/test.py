@@ -96,4 +96,29 @@ F = (2*(P*R))/(P+R)
 print('\nA: '+str(A)+"\nP: "+str(P)+"\nR: "+str(R)+"\nF: "+str(F))
 
 
+# Importing packages
+import matplotlib.pyplot as plt
+
+
+# creating the dataset
+data = {'Độ đúng': A, 'Độ chính xác': P, 'Độ truy hồi': R,
+        'Độ trung bình điều hòa': F}
+courses = list(data.keys())
+values = list(data.values())
+
+fig = plt.figure(figsize=(10, 5))
+
+# creating the bar plotZ
+plt.bar(courses, values, color='maroon',
+        width=0.4)
+plt.title("Biểu đồ độ chính xác khi test bộ dữ liệu")
+
+fig1 = plt.figure()
+ax = fig1.add_axes([0,0,1,1])
+ax.axis('equal')
+langs = ['TP', 'TN', 'FP', 'FN']
+dataOut = [tp,tn,fp,fn]
+ax.pie(dataOut, labels = langs,autopct='%1.2f%%')
+plt.show()
+
 
