@@ -9,8 +9,8 @@ from keras.optimizers import SGD
 from ChatbotApp.dataProcess import data_process
 import os
 
-rootPath = 'E:\\DoAnPhatTrienHeThongThongMinh\\ChatbotApp'
-type = 'true'# true or wrong
+rootPath = 'D:\\Reactjs\\HTTT\\Chat-Box-Deep-Learning-\\ChatbotApp'
+type = 'wrong'# true or wrong
 
 train_x,train_y = data_process(rootPath,os.path.abspath('data/'+type+'/trainning/trainning.json'),type)
 # train_x,train_y = data_process(rootPath,'\\data\\wrong\\trainning\\trainning.json')

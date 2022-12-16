@@ -4,9 +4,10 @@ from nltk.stem import WordNetLemmatizer
 lemmatizer = WordNetLemmatizer()
 import json
 import pickle
-
 import numpy as np
 import random
+import re
+from static.emo_unicode import UNICODE_EMOJI
 
 def data_process(rootPath,nameFile,type):
     words = []
@@ -23,9 +24,16 @@ def data_process(rootPath,nameFile,type):
 
     for intent in intents['intents']:
         for pattern in intent['patterns']:
+            #ignore link
+            url_pattern = re.compile(r'http\S+')
+            pattern_tmp=url_pattern.sub(r'', pattern)
+
+            #ignore emotions
+            emoji_pattern = re.compile('|'.join(UNICODE_EMOJI), flags=re.UNICODE)
+            pattern_tmp=emoji_pattern.sub(r'', pattern_tmp)
 
             # tokenize each word
-            w = nltk.word_tokenize(pattern)
+            w = nltk.word_tokenize(pattern_tmp)
             words.extend(w)
             # add documents in the corpus
             documents.append((w, intent['tag']))
